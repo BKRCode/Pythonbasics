@@ -22,14 +22,9 @@ for i in liste:
 
 
 # Addition der ausgegebenen werte
-
-# Liste mit den Werten
 zahlen = [12, 45, 89, 4]
-
-
 summe = 0
+
 for zahl in zahlen:
     summe += zahl
-print("Hier der Addierte Zahlenwert:", summe)
-
-    
+    print("Hier der Addierte Zahlenwert:", summe)
