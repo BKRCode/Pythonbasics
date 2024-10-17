@@ -20,3 +20,19 @@ else:
     print("Du bist zu jung")
 
 print(eingabe)
+
+def check_eingabe():
+    while True:
+        eingabe = input("Wie alt Bist du?: ")
+        try:
+            zahl = int(eingabe)
+            if zahl < 0:
+                print ("Die Zahl ist negativ.")
+            elif zahl == 0:
+                print("Die Zahl ist null..")
+            else:
+                print("Die Zahl ist positiv.")
+            break
+        except ValueError:
+            print("Unglültige Eingabe :(")
+check_eingabe()
