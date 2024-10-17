@@ -8,7 +8,7 @@
 
 def berechne_fakultaet(num):
     if num < 0:
-        return "nö."
+        return "Abbruch"
     elif num == 0 or num == 1:
         return 1
     else:
@@ -19,3 +19,6 @@ def berechne_fakultaet(num):
 
 Num = 5
 print(f"{Num}! = {berechne_fakultaet(Num)}")
+
+
+# 49! / (43! +6!)
