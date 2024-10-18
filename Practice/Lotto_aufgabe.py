@@ -22,8 +22,7 @@ def lotto_spiel():
         except ValueError:
             print("Bitte eine auswertbare Zahl eingeben.")
 
-    user_numbers = sorted(user_numbers)
-    print(f"Deine Zahlen: {user_numbers} und Superzahl: {superzahl}")
+    print(f"Deine Zahlen: {sorted(user_numbers)} und Superzahl: {superzahl}")
 
     count = 0
     gewinn_klassen = {

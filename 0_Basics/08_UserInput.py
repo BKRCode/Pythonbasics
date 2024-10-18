@@ -6,12 +6,12 @@ alter = 49
 if (alter>=18):
     "Du bist voll und jährig!"
 
-
-# Durch Usereingaben wird es dynamisch
-# 'eingabe' muss überprüft werden, ob ein Zahlenwert enthalten ist
-# erst wenn die Eingabe ein numeraler Wert ist, wird die 
-# Fallunterscheidung vorgenommen
-
+"""
+Durch Usereingaben wird es dynamisch
+'eingabe' muss überprüft werden, ob ein Zahlenwert enthalten ist
+erst wenn die Eingabe ein numeraler Wert ist, wird die 
+Fallunterscheidung vorgenommen
+"""
 eingabe = input("Wie alt bist Du?: ")
 
 if (int(eingabe) >= 18):
