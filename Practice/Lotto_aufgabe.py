@@ -1,17 +1,18 @@
-#AUFGABE:
+"""
+AUFGABE:
  
-#Schreibe ein Programm, mit dem Du Lotto spielen kannst. 6 aus 49.
+Schreibe ein Programm, mit dem Du Lotto spielen kannst. 6 aus 49.
  
-#Als Eingabe müssen 6 unterschiedliche Zahlen zwischen 1 und 49 aufgenommen werden. Als siebte Zahl erfolgt dann die Angabe der Superzahl (0 - 9)
+Als Eingabe müssen 6 unterschiedliche Zahlen zwischen 1 und 49 aufgenommen werden. Als siebte Zahl erfolgt dann die Angabe der Superzahl (0 - 9)
  
-#In einer danach folgenden Schleife sollen per Zufallsgenerator ebenso 6 unterschiedliche(!) Zahlen gezogen und eine Superzahl ermittelt werden. Eine count Variable soll die Anzahl der insgesamten Durchläufe anzeigen.
+In einer danach folgenden Schleife sollen per Zufallsgenerator ebenso 6 unterschiedliche(!) Zahlen gezogen und eine Superzahl ermittelt werden. Eine count Variable soll die Anzahl der insgesamten Durchläufe anzeigen.
  
-#Jede Gewinnkombination soll auf der Konsole ausgegeben werden.
+Jede Gewinnkombination soll auf der Konsole ausgegeben werden.
  
-#Die Schleife ist fertig, wenn 6 Richtige inkl. Superzahl gezogen wurden. Dann die Gewinnkombination ausgeben und die Anzahl der Ziehungen.
+Die Schleife ist fertig, wenn 6 Richtige inkl. Superzahl gezogen wurden. Dann die Gewinnkombination ausgeben und die Anzahl der Ziehungen.
 
-#Bonus aufgabe: Ende des Durchlaufes soll auch ausgegeben werden, wie oft welche Gewinncombo gezogen wurde
-
+Bonus aufgabe: Ende des Durchlaufes soll auch ausgegeben werden, wie oft welche Gewinncombo gezogen wurde
+"""
 import random
 
 def lotto_spiel():
