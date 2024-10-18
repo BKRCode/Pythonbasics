@@ -8,7 +8,6 @@ def rnd_ganzzahl(start = 1, end = 49):
 
 # Wie kann ich nun 6 Unterschiedliche Zahlen zufällig generieren?
 
-
 lottoziehung = []
 
 while (len(lottoziehung )< 6):
