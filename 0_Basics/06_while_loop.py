@@ -23,9 +23,12 @@ while (True):
         break
 print ('Break wurde erreicht da rnd_zahl', rnd_zahl)
 
-# Java Pendant
 
-#rnd_zahl = -1
-#do {
-#    rnd_zahl = int(Math.random()*100 + 1);
-#} while (rnd_zahl != 100);
+"""
+Java Pendant
+
+rnd_zahl = -1
+do {
+    rnd_zahl = int(Math.random()*100 + 1);
+} while (rnd_zahl != 100);
+"""

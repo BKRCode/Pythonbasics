@@ -23,7 +23,7 @@ def lotto_spiel():
             if 1 <= number <= 49 and number not in user_numbers:
                 user_numbers.add(number)
             else:
-                print("Flasche Eingabe, bitte eine Zahl zwischen 1 und 49 eingeben, die noch nicht gewählt wurde.")
+                print("Falsche Eingabe, bitte eine Zahl zwischen 1 und 49 eingeben, die noch nicht gewählt wurde.")
         except ValueError:
             print("Bitte eine auswertbare Zahl eingeben.")
 
@@ -36,9 +36,8 @@ def lotto_spiel():
                 print("Ungültige Eingabe. Bitte eine Zahl zwischen 0 und 9 eingeben.")
         except ValueError:
             print("Bitte eine auswertbare Zahl eingeben.")
-    
-    user_numbers = list(user_numbers)
-    user_numbers.sort()
+
+    user_numbers = sorted(user_numbers)
     print(f"Deine Zahlen: {user_numbers} und Superzahl: {superzahl}")
 
     count = 0
@@ -58,13 +57,10 @@ def lotto_spiel():
         while True:
             count += 1
 
-            draw_numbers = random.sample(range(1, 50), 6)
-            draw_numbers.sort()
+            draw_numbers = set(random.sample(range(1, 50), 6))
             draw_superzahl = random.randint(0, 9)
 
-            print(f"Ziehung {count}: Zahlen: {draw_numbers} Superzahl: {draw_superzahl}")
-
-            richtige = len(set(user_numbers) & set(draw_numbers))
+            richtige = len(user_numbers & draw_numbers)
             superzahl_treffer = (draw_superzahl == superzahl)
 
             if richtige == 6 and superzahl_treffer:
@@ -87,6 +83,9 @@ def lotto_spiel():
                 gewinn_klassen["3 Richtige"] += 1
             elif richtige == 2 and superzahl_treffer:
                 gewinn_klassen["2 Richtige + SZ"] += 1
+
+            if count % 100000 == 0:
+                print(f"Fortschritt: {count} Ziehungen durchgeführt...")
 
     except KeyboardInterrupt:
         print(f"Das Programm wurde nach {count} Ziehungen gestoppt.")
