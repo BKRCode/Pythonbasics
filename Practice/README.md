@@ -4,7 +4,7 @@ Willkommen zum Python Beginner Kurs! Dieser Kurs enthält verschiedene Python-Da
 
 ## Voraussetzungen
 
-- **Python-Version:** Stelle sicher, dass Python (mindestens Version 3.6) auf deinem Computer installiert ist. 
+- **Python-Version:** Stelle sicher, dass Python (mindestens Version 3.6) auf deinem Computer installiert ist.
   - Du kannst Python [hier herunterladen](https://www.python.org/downloads/).
   
 - **IDE oder Text-Editor:** Empfohlene IDEs sind Visual Studio Code oder PyCharm, aber auch jeder andere Text-Editor wie Sublime Text oder Notepad++ funktioniert.
@@ -14,9 +14,10 @@ Willkommen zum Python Beginner Kurs! Dieser Kurs enthält verschiedene Python-Da
 Der Kurs ist in verschiedene Abschnitte unterteilt. Jeder Abschnitt enthält eine Python-Datei mit Übungen und Erklärungen zu einem bestimmten Thema.
 
 ### 1. Basics
+
 Im Ordner `0_Basics` findest du Dateien, die die grundlegenden Konzepte der Python-Programmierung behandeln.
 
-- **01_hello_world.py:** 
+- **01_hello_world.py:**
   - Hier lernst du, wie man ein einfaches "Hello, World!" Programm schreibt. Dies ist das erste Programm für jeden Anfänger.
   
 - **02_variablen_und_datentypen.py:**
@@ -38,8 +39,9 @@ Im Ordner `0_Basics` findest du Dateien, die die grundlegenden Konzepte der Pyth
   - Eine Vertiefung in das Thema Schleifen, insbesondere, wie du Schleifen mit Objekten in Python verwenden kannst.
 
 - **08_userinput.py:**
-  - In dieser Datei wird der Umgang mit Benutzereingaben besprochen. Du lernst, wie man Eingaben vom Benutzer entgegennimmt und verarbeitet. 
+  - In dieser Datei wird der Umgang mit Benutzereingaben besprochen. Du lernst, wie man Eingaben vom Benutzer entgegennimmt und verarbeitet.
   - Beispielcode:
+
     ```python
     eingabe = input("Wie alt bist du?: ")
     if int(eingabe) >= 18:
@@ -49,6 +51,7 @@ Im Ordner `0_Basics` findest du Dateien, die die grundlegenden Konzepte der Pyth
     ```
 
 ### 2. Methoden
+
 Im Ordner `2_Methoden` lernst du, wie man eigene Funktionen definiert und aufruft.
 
 - **addieren_methode.py:**
@@ -58,12 +61,14 @@ Im Ordner `2_Methoden` lernst du, wie man eigene Funktionen definiert und aufruf
   - Diese Datei zeigt, wie man die Fakultät einer Zahl berechnet, indem man rekursive Funktionen verwendet.
 
 ### 3. OOP (Objektorientierte Programmierung)
+
 Im Ordner `3_OOP` wird der Einstieg in die objektorientierte Programmierung erklärt.
 
 - **theorie.py:**
   - Eine theoretische Einführung in die OOP-Konzepte wie Klassen, Objekte, Vererbung und Polymorphismus.
 
 ### 4. Practice
+
 Im Ordner `Practice` befinden sich Aufgaben zur praktischen Anwendung des Gelernten.
 
 - **6_aus_49_unique.py:**
