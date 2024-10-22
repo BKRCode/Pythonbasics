@@ -1,7 +1,6 @@
 """
 Ausgangssituation: Ich bin Zuschauer eines vergangeng Spektakels, in einem Land, vor unserer Zeit. Ihr Rang ist Informatikus, doch lesen Sie zunächst die Geschichte...
 
-König, 
 100 prisoners
 schrank mit 100 schubladen, 1-100 Nummeriert (1, 101)
 100 kleine Holzplättchen, 1-100 Nummeriert
